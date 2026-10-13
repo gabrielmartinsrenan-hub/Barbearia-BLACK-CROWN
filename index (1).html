@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Black Crown Barbearia — cortes precisos, barba impecável e estilo de verdade.">
+  <title>Black Crown Barbearia — Seu estilo, sua coroa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="header" id="inicio">
+    <div class="container nav">
+      <a href="#inicio" class="logo" aria-label="Black Crown início">
+        <span class="logo-icon"><i data-lucide="crown"></i></span>
+        <span class="logo-text">BLACK <b>CROWN</b><small>BARBEARIA • EST. 2020</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false"><i data-lucide="menu"></i></button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">A barbearia</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+        <a href="#agendamento" class="nav-book">Agendar horário <i data-lucide="arrow-up-right"></i></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-bg" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=85&w=2200&auto=format&fit=crop" alt="Interior de uma barbearia profissional" fetchpriority="high">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="eyebrow"><span></span> MAIS QUE UM CORTE. UMA IDENTIDADE.</div>
+        <h1>SEU ESTILO.<br><span>SUA COROA.</span></h1>
+        <p>Cortes precisos, barba alinhada e atendimento de verdade. Entre como você é. Saia na sua melhor versão.</p>
+        <div class="hero-buttons">
+          <a href="#agendamento" class="btn btn-gold">Agendar meu horário <i data-lucide="arrow-up-right"></i></a>
+          <a href="#servicos" class="btn btn-ghost"><i data-lucide="scissors"></i> Conhecer serviços</a>
+        </div>
+        <div class="hero-meta"><span><i data-lucide="star"></i> ATENÇÃO A CADA DETALHE</span><span class="meta-line"></span><span>ESTILO QUE IMPÕE RESPEITO</span></div>
+      </div>
+      <div class="hero-vertical">BLACK CROWN BARBER CLUB — CORTE • BARBA • ESTILO</div>
+    </section>
+
+    <section class="quick-info">
+      <div class="container info-grid">
+        <div class="info-item"><span class="info-icon"><i data-lucide="clock-3"></i></span><div><strong>Seg — Sáb</strong><small>09h às 20h</small></div></div>
+        <div class="info-item"><span class="info-icon"><i data-lucide="map-pin"></i></span><div><strong>Venha nos visitar</strong><small>Seu endereço aqui, sua cidade</small></div></div>
+        <div class="info-item"><span class="info-icon"><i data-lucide="coffee"></i></span><div><strong>Conforto de verdade</strong><small>Boa conversa, café e estilo</small></div></div>
+        <a class="info-action" href="#agendamento">Reserve sua cadeira <i data-lucide="arrow-up-right"></i></a>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section-top"><div><div class="eyebrow dark"><span></span> O QUE FAZEMOS</div><h2>O clássico nunca<br>sai <em>de moda.</em></h2></div><p>Do degradê perfeito à barba desenhada, cada serviço é feito com técnica, cuidado e atenção ao que combina com você.</p></div>
+        <div class="services-grid">
+          <article class="service-card"><div class="service-image"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=900&auto=format&fit=crop" alt="Barbeiro fazendo corte masculino" loading="lazy"><span class="service-number">01</span></div><div class="service-body"><div class="service-title"><h3>Corte masculino</h3><strong>R$ 45</strong></div><p>Do social ao fade, acabamento limpo e corte pensado para seu estilo.</p><div class="service-bottom"><span><i data-lucide="clock-3"></i> 40 min</span><a href="#agendamento" aria-label="Agendar corte masculino"><i data-lucide="arrow-up-right"></i></a></div></div></article>
+          <article class="service-card featured"><div class="service-image"><img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=900&auto=format&fit=crop" alt="Barbeiro aparando barba de cliente" loading="lazy"><span class="service-number">02</span><span class="popular-tag">MAIS PEDIDO</span></div><div class="service-body"><div class="service-title"><h3>Barba premium</h3><strong>R$ 35</strong></div><p>Modelagem, toalha quente e contornos definidos para uma barba impecável.</p><div class="service-bottom"><span><i data-lucide="clock-3"></i> 30 min</span><a href="#agendamento" aria-label="Agendar barba premium"><i data-lucide="arrow-up-right"></i></a></div></div></article>
+          <article class="service-card"><div class="service-image"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=900&auto=format&fit=crop" alt="Ferramentas profissionais de barbearia" loading="lazy"><span class="service-number">03</span></div><div class="service-body"><div class="service-title"><h3>Corte + barba</h3><strong>R$ 70</strong></div><p>O combo completo para renovar o visual com praticidade e personalidade.</p><div class="service-bottom"><span><i data-lucide="clock-3"></i> 60 min</span><a href="#agendamento" aria-label="Agendar corte e barba"><i data-lucide="arrow-up-right"></i></a></div></div></article>
+        </div>
+        <p class="price-note">* Preços ilustrativos. Personalize os valores conforme sua barbearia.</p>
+      </div>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="about-image"><img src="https://images.unsplash.com/photo- barber-shop-interior" alt="" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1512690459411-b9245aed614b?q=80&w=1200&auto=format&fit=crop'" loading="lazy"><div class="experience-badge"><strong>100%</strong><span>ATITUDE<br>NO DETALHE</span></div></div>
+      <div class="about-content"><div class="eyebrow"><span></span> NOSSA ESSÊNCIA</div><h2>Respeito à tradição.<br><em>Olhar para o novo.</em></h2><p>A Black Crown nasceu da ideia de que barbearia é mais do que sentar na cadeira. É ter um espaço seu, ser ouvido e sair se sentindo bem.</p><p>Unimos técnicas clássicas, tendências atuais e um atendimento sem pressa para entregar um resultado que combina com sua personalidade.</p><div class="about-points"><span><i data-lucide="check-circle-2"></i> Profissionais atentos</span><span><i data-lucide="check-circle-2"></i> Higiene em cada detalhe</span><span><i data-lucide="check-circle-2"></i> Seu estilo em primeiro lugar</span></div><a href="#agendamento" class="btn btn-gold">Conheça de perto <i data-lucide="arrow-up-right"></i></a></div>
+    </section>
+
+    <section class="gallery section" id="galeria"><div class="container"><div class="section-top"><div><div class="eyebrow dark"><span></span> NOSSO UNIVERSO</div><h2>Detalhe por detalhe.<br><em>Estilo de sobra.</em></h2></div><p>Um ambiente feito para desacelerar, trocar ideia e sair com o visual em dia.</p></div><div class="gallery-grid"><a href="#agendamento" class="gallery-item gallery-large"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1200&auto=format&fit=crop" alt="Ambiente de barbearia" loading="lazy"><span>O AMBIENTE <i data-lucide="arrow-up-right"></i></span></a><a href="#agendamento" class="gallery-item"><img src="https://images.unsplash.com/photo- barber-tools" alt="" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1593702275687-f8b402bf1c0a?q=80&w=900&auto=format&fit=crop'" loading="lazy"><span>FERRAMENTAS DE PRECISÃO <i data-lucide="arrow-up-right"></i></span></a><a href="#agendamento" class="gallery-item"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=900&auto=format&fit=crop" alt="Corte masculino em andamento" loading="lazy"><span>ARTE NO CORTE <i data-lucide="arrow-up-right"></i></span></a></div></div></section>
+
+    <section class="booking-section" id="agendamento"><div class="container booking-layout"><div class="booking-copy"><div class="eyebrow"><span></span> SUA CADEIRA ESTÁ TE ESPERANDO</div><h2>Seu próximo visual<br>começa com um <em>horário.</em></h2><p>Escolha o serviço e o melhor momento para você. Envie sua solicitação e combine os detalhes diretamente com a barbearia.</p><div class="booking-detail"><i data-lucide="calendar-check"></i><span><strong>Sem complicação</strong><small>Solicitação rápida pelo WhatsApp</small></span></div><div class="booking-detail"><i data-lucide="message-circle"></i><span><strong>Confirmação direta</strong><small>O horário só fica reservado após confirmação</small></span></div></div>
+      <form class="booking-form" id="bookingForm"><h3>Agende seu horário</h3><p>Preencha seus dados para iniciar a conversa.</p><div class="form-row"><div class="form-field"><label for="clientName">Seu nome</label><input id="clientName" name="name" placeholder="Como podemos te chamar?" required></div><div class="form-field"><label for="clientPhone">Seu WhatsApp</label><input id="clientPhone" name="phone" type="tel" placeholder="(00) 00000-0000" required></div></div><div class="form-field"><label for="serviceSelect">Escolha o serviço</label><select id="serviceSelect" name="service" required><option value="">Selecione uma opção</option><option value="Corte masculino — R$ 45">Corte masculino — R$ 45</option><option value="Barba premium — R$ 35">Barba premium — R$ 35</option><option value="Corte + barba — R$ 70">Corte + barba — R$ 70</option></select></div><div class="form-row"><div class="form-field"><label for="bookingDate">Data desejada</label><input id="bookingDate" name="date" type="date" required></div><div class="form-field"><label for="bookingTime">Horário desejado</label><select id="bookingTime" name="time" required><option value="">Escolha o horário</option><option>09:00</option><option>10:00</option><option>11:00</option><option>13:00</option><option>14:00</option><option>15:00</option><option>16:00</option><option>17:00</option><option>18:00</option><option>19:00</option><option>20:00</option></select></div></div><button class="btn btn-gold submit-btn" type="submit">Solicitar agendamento <i data-lucide="arrow-up-right"></i></button><small class="form-disclaimer">Demonstração: configure o número de WhatsApp no arquivo js/script.js antes de publicar.</small></form>
+    </div></section>
+
+    <section class="testimonial"><div class="container testimonial-inner"><span class="quote-mark">“</span><blockquote>Saí com o corte que queria e a sensação de ter encontrado minha barbearia.</blockquote><div class="testimonial-stars">★★★★★</div><small>CLIENTE BLACK CROWN <span>—</span> DEPOIMENTO DEMONSTRATIVO</small></div></section>
+
+    <section class="contact-section" id="contato"><div class="container contact-inner"><div><div class="eyebrow dark"><span></span> CHEGA MAIS</div><h2>Vamos deixar<br>o visual <em>em dia?</em></h2></div><div class="contact-info"><p>Tem dúvidas ou quer saber mais? Fale com a equipe ou passe para tomar um café.</p><a class="contact-link" href="https://wa.me/5500000000000" id="contactWhatsapp"><i data-lucide="message-circle"></i><span><small>FALE COM A GENTE</small><strong>WhatsApp da barbearia</strong></span><i data-lucide="arrow-up-right"></i></a><div class="contact-hours"><i data-lucide="clock-3"></i><span>Segunda a sábado <strong>09h — 20h</strong></span></div><div class="contact-hours"><i data-lucide="map-pin"></i><span>Seu endereço aqui, sua cidade</span></div></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-top"><a href="#inicio" class="logo footer-logo"><span class="logo-icon"><i data-lucide="crown"></i></span><span class="logo-text">BLACK <b>CROWN</b><small>BARBEARIA • EST. 2020</small></span></a><p>Seu estilo. Sua coroa.</p><div class="footer-social"><a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a><a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Black Crown Barbearia. Todos os direitos reservados.</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
