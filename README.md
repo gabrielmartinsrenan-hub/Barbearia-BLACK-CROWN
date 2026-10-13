@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1400&q=85" alt="Interior de uma barbearia moderna" width="100%">
+  ![Vintage & Club Banner](https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1200&q=80)
 
   <h1>✂️ Black Crown Barbearia</h1>
 
